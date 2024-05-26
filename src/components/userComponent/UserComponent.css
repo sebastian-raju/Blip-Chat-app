@@ -1,0 +1,74 @@
+.user-component-container{
+  border-radius: 15px;
+  overflow: hidden;
+  height: 72.2vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 5px;
+  background-color: white;
+  padding: 20px;
+}
+
+@media(min-height:777px){
+  .user-component-container{
+    height: 74.2vh;
+  }
+}
+
+.user-component-container img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 3px;
+}
+
+.user-component-name{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.user-component-status{
+  font-size: 14px;
+  max-width: 170px;
+  text-align: center;
+}
+
+.user-component-logout{
+  padding: 8px 18px;
+  border: none;
+  /* color: white; */
+  /* background-color: rgb(218, 73, 73); */
+  background-color: rgb(223, 231, 234);
+  color: rgb(4, 110, 143);
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.user-component-logout i{
+  margin-right: 5px;
+}
+
+
+@media(max-width:1000px){
+  .user-component-container img{
+    width: 55px;
+    height: 55px;
+  }
+  .user-component-name{
+    margin-top: 2px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .user-component-status{
+    font-size: 11px;
+    width: 120px;
+  }
+}

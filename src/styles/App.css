@@ -1,0 +1,61 @@
+.App {
+  width: 90vw;
+  height: 84.2vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+/* @media(min-height:777px){
+  .App{
+    height: 85vh;
+  }
+} */
+
+.chat-container{
+  display: grid;
+  /* grid-template-columns: 1fr 3fr ; */
+  grid-template-columns: 1fr 2fr 1fr;
+  color: black;
+  column-gap: 15px;
+  padding: 13px 13px;
+  background-color: rgb(242, 245, 247);
+  height: 76vh;
+}
+
+
+@media(max-width:870px){
+  .chat-container{
+    /* grid-template-columns: 1fr 1.5fr ; */
+  }
+}
+
+.login-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  color: black;
+  column-gap: 15px;
+  padding: 20px 20px;
+  padding-bottom: 27px;
+  background-color: rgb(242, 245, 247);
+  height: 76vh;
+}
+
+.loading-container{
+  height:76vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* background-color: rgba(0, 26, 29, 0.573); */
+
+.loading-gif{
+  width: 80px;
+  height: 80px;
+}
+
+.loading-gif img{
+  width: 100%;
+  height: 100%;
+}

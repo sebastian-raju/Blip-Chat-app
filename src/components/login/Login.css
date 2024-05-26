@@ -1,0 +1,238 @@
+
+/* sigin */
+.main-signin-container{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(2, 44, 57, 0.054);
+}
+
+.signin-title{
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: rgb(4, 110, 143);
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.signin-form{
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.email-input-container{
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.email-input-container input{
+  width: 100%;
+  border: none;
+  box-shadow: inset 0px 0px 4px 2px rgba(0, 0, 0, 0.11);
+  padding: 13px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.password-input-container{
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.password-input-container input{
+  width: 100%;
+  border: none;
+  box-shadow: inset 0px 0px 4px 2px rgba(0, 0, 0, 0.11);
+  padding: 13px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.sign-in-btn{
+  width: 100%;
+  max-width: 300px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: rgb(4, 110, 143);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  outline: none;
+}
+
+.sign-in-btn:disabled{
+  background-color: rgba(4, 111, 143, 0.471);
+  cursor: not-allowed;
+}
+
+.sign-in-btn:hover{
+ 
+  background-color: rgb(55, 141, 167);
+ 
+}
+
+.registration-text{
+  font-size: 11px;
+  width: 100%;
+  max-width: 300px;
+  font-weight: 400;
+  color:rgb(4, 110, 143);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.registration-text i{
+  margin-left: 4px;
+}
+
+.registration-text:hover{
+  color:rgb(28, 135, 167);
+}
+
+
+
+/* registration */
+.main-registration-container{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(2, 44, 57, 0.054);
+}
+
+.create-account-title{
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: rgb(4, 110, 143);
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.registration-form{
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.username-input-container{
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.username-input-container input{
+  width: 100%;
+  border: none;
+  box-shadow: inset 0px 0px 4px 2px rgba(0, 0, 0, 0.11);
+  padding: 13px;
+  border-radius: 5px;
+  outline: none;
+}
+
+
+.upload-image-container{
+  margin-bottom: 8px;
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.dp-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dp-img img{
+  width: 85px;
+  height: 85px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+
+.upload-image-container label{
+  font-size: 13px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgb(223, 231, 234);
+  cursor: pointer;
+  border-radius: 5px;
+  color: rgb(4, 110, 143);
+  font-weight: 500;
+}
+
+.upload-image-container input{
+  display: none;
+}
+
+
+
+
+.sign-up-btn{
+  width: 100%;
+  max-width: 300px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: rgb(4, 110, 143);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  outline: none;
+}
+
+.sign-up-btn:disabled{
+  background-color: rgba(4, 111, 143, 0.471);
+  cursor: not-allowed;
+}
+
+.sign-up-btn:hover{
+ 
+  background-color: rgb(55, 141, 167);
+ 
+}

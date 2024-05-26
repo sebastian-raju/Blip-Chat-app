@@ -1,0 +1,99 @@
+.user-info-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 0px rgba(2, 44, 57, 0.054);
+}
+
+.user-details-container{
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.profile-img-container{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.profile-img-container img {
+  width: 100%;
+}
+
+.name-container{
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+.user-options-container{
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  cursor: pointer;
+}
+
+.user-options-container i {
+  color: rgb(4, 110, 143);
+}
+
+.user-logout-btn{
+  background-color: rgb(223, 231, 234);
+  padding: 6px 9px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.user-logout-btn:hover{
+  background-color: rgb(207, 218, 222);
+}
+
+.user-logout-btn:active{
+  background-color: rgb(207, 218, 222);
+  transform: scale(0.97);
+}
+
+.user-logout-btn i{
+  transition: all 0.2s ease-in-out;
+}
+
+.user-logout-btn:active i{
+  transform: scale(0.97);
+}
+
+.user-logout-btn img{
+  width: 100%;
+  height:100%;
+}
+
+
+@media(max-width:1000px){
+  .name-container{
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+  .user-logout-btn{
+    padding: 4px 7px;
+  }
+  
+  
+  .user-options-container{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+}
+

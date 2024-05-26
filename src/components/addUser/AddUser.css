@@ -1,0 +1,77 @@
+.add-user-container{
+  position: absolute;
+  top: 32%;
+  left:26.5%;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  z-index: 100;
+  border-radius: 10px;
+  box-shadow: 10px 20px 20px 15px rgba(0, 0, 0, 0.274);
+}
+
+.input-username-form{
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.input-username{
+  width: 100%;
+  min-width: 245px;
+  border: none;
+  box-shadow: inset 0px 0px 4px 2px rgba(0, 0, 0, 0.11);
+  padding: 13px;
+  border-radius: 5px;
+  outline: none;
+  color: rgb(4, 110, 143)
+}
+
+.username-search-btn{
+  padding: 13px 19px;
+  border-radius: 5px;
+  color: rgb(4, 110, 143);
+  background-color: rgb(223, 231, 234);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  outline: none;
+}
+
+
+
+.username-container{
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  justify-content: space-between;
+}
+
+.add-username{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.user-details-container img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+}
+
+.add-user-btn{
+  padding: 13px;
+  border-radius: 5px;
+  background-color: rgb(4, 110, 143);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  outline: none;
+}
